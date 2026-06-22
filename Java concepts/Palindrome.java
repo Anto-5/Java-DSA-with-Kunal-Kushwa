@@ -4,7 +4,7 @@ public class Palindrome {
         Scanner scn = new Scanner(System.in);
 
         System.out.print("Enter a string: ");
-        String str = scn.nextLine();
+        String str = scn.nextLine().trim();
 
         String rev = "";
 
